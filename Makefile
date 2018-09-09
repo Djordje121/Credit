@@ -1,9 +1,7 @@
-#simple make file for casier program compalation
+#simple make file for cred9t program compalation
 
-# build an executable named casier from casier.c
-#LIB=/home/yolo/Desktop/cs50_practise/pset1/system.h
+# build an executable named credit from credit.c
 
-#MY_INCLUDES = /home/yolo/Desktop/cs50_practise/pset1
 MY_OBJECTS = system.o helpers.o
 
 #automatic variables $^  $@ -pre recuisets - target
