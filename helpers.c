@@ -1,7 +1,7 @@
 
 #include "helpers.h"
 
-// <inherited.doc/>
+// inherit.doc <see chref="helpers.h"/>
 int getln_len(long long n)
 {
     if(n == 0)

@@ -18,7 +18,7 @@ typedef struct
 CreditCard; 
 
 /** Validates credit card number using Hans Peter Lugn's algorithm
- *  <see ahref="https://en.wikipedia.org/wiki/Luhn_algorithm"/> 
+ *  <see chref="https://en.wikipedia.org/wiki/Luhn_algorithm"/> 
  * <returns> true if cc number is valid or false if num. is zero or invalid </returns>
  */
 bool cc_number_val(long long cc_number);

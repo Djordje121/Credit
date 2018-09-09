@@ -22,7 +22,7 @@ int main(void)
    return (0);
 }
 
-// <inherited.doc/>
+// inherit.doc <see chref="credit.h"/>
 CreditCard credit_card_val(CreditCard card)
 {
    card.verified = false;
@@ -50,7 +50,7 @@ CreditCard credit_card_val(CreditCard card)
    return card; 
 }
 
-// <inherited.doc/>
+// inherit.doc <see chref="credit.h"/>
 bool cc_number_val(long long cc_number)
 {
     if(cc_number == 0)
