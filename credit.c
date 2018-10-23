@@ -8,8 +8,8 @@ int getln_len(long long n);
 
 int main(void)
 { 
-    CreditCard card;
-   /* propmp user for positive number */
+     CreditCard card;
+    /* propmp user for positive number */   
     
     printf("enter cc number: ");
     card.cc_number = get_long_long();
@@ -18,8 +18,8 @@ int main(void)
     card = credit_card_val(card);
     printf("num: %lli\ntype: %s\nverified: %s\n"
     ,card.cc_number, card.type, card.verified ? "true" : "false");
-    
-   return (0);
+     
+    return (0);
 }
 
 // inherit.doc <see chref="credit.h"/>

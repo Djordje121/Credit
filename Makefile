@@ -1,4 +1,4 @@
-#simple make file for cred9t program compalation
+#simple make file for credit program compalation
 
 # build an executable named credit from credit.c
 
