@@ -1,17 +1,9 @@
-# Credit
+# Credit 
 
+Simple credit card validation simulation inspired by CS50 problem set https://docs.cs50.net/2018/x/psets/1/credit/credit.html
 
-TODO:
-
-1. Get user input (cc number)
-2. Validate user input
-3. Credit card number validation
-4. If valid check company identifires else print err message
-5. Print validation output
-
-
-
-Credit card validtion
+Credit card validtion by Hans Peter Lugn's algorithm 
+https://en.wikipedia.org/wiki/Luhn_algorithm
 
 1.Multiply every other digit by 2, starting with the number’s second-to-last digit, and then add those products' digits together.
 
